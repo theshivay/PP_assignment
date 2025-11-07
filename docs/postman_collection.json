@@ -1,0 +1,40 @@
+{
+  "info": {
+    "_postman_id": "e0f9b490-0000-4000-8000-000000000000",
+    "name": "Vernan Contact Us",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Contact Us - POST",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"test@example.com\",\n  \"name\": \"Test User\",\n  \"phone\": \"1234567890\",\n  \"message\": \"Hello from Postman\"\n}"
+        },
+        "url": {
+          "raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+          "protocol": "https",
+          "host": [
+            "vernanbackend",
+            "ezlab",
+            "in"
+          ],
+          "path": [
+            "api",
+            "contact-us",
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
