@@ -1,0 +1,40 @@
+{
+  "item": [
+    {
+      "name": "Contact Us - POST",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": {
+          "email": "rishabh@example.com",
+          "name": "Demo User",
+          "phone": "0987654321",
+          "message": "Hii..."
+          }
+        },
+        "url": {
+          "raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+          "protocol": "https",
+          "host": [
+            "vernanbackend",
+            "ezlab",
+            "in"
+          ],
+          "path": [
+            "api",
+            "contact-us",
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

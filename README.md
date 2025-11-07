@@ -1,5 +1,8 @@
 # Vernan (EZ Labs) — React Single Page Application
 
+Repository: https://github.com/theshivay/PP_assignment
+Postman Collection: [Download Postman Collection](docs/postman_collection.json)
+
 This repository contains a single-page React application (Vite + React) implementing a responsive Home page with a contact form integrated with the provided API.
 
 The goal of the assignment
@@ -69,7 +72,7 @@ How to run (macOS / zsh)
 1. Install dependencies
 
 ```bash
-cd /Users/shivammishra/Desktop/EZ
+cd PP_assignment
 npm install
 ```
 
@@ -106,12 +109,11 @@ Git / sharing instructions (how you can create a remote repo and share link)
 2. Locally, commit and push:
 
 ```bash
-cd /Users/shivammishra/Desktop/EZ
+cd PP_assignment
 git init
 git add .
 git commit -m "Initial project — home page + contact form"
-# replace <YOUR_REMOTE_URL> with the GitHub repo url (e.g. git@github.com:user/repo.git or https://...)
-git remote add origin <YOUR_REMOTE_URL>
+git remote add origin https://github.com/theshivay/PP_assignment.git
 git branch -M main
 git push -u origin main
 ```
